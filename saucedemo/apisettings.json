@@ -1,0 +1,7 @@
+{
+    "ApiSettings": {
+      "BaseUrl": "https://test.lan",
+      "Endpoint": "/client",
+      "ContentType": "application/json"
+    }
+  }
