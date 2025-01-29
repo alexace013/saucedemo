@@ -1,0 +1,15 @@
+{
+    "url": "https://www.saucedemo.com/",
+    "login": {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+    "filter": {
+      "type": "Price (High to low)"
+    },
+    "product": {
+      "name": "Sauce Labs Bike Light",
+      "price": "9.99"
+    }
+  }
+  
