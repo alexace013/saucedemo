@@ -38,8 +38,8 @@ namespace ApiTests
 
             var responseBody = JObject.Parse(response.Content);
             Assert.IsTrue(responseBody.ContainsKey("id"));
-            Assert.AreEqual("John Doe", responseBody["name"].ToString());
-            Assert.AreEqual("john.doe@example.com", responseBody["email"].ToString());
+            Assert.AreEqual("Bob Doe", responseBody["name"].ToString());
+            Assert.AreEqual("bob.doe@example.com", responseBody["email"].ToString());
             Assert.AreEqual(100, (int)responseBody["balance"]);
         }
 
